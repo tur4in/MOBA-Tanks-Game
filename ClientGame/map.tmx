@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="17" tilewidth="64" tileheight="64" nextobjectid="1">
+ <tileset firstgid="1" name="tileset" tilewidth="64" tileheight="64" tilecount="41" columns="0">
+  <tile id="4">
+   <properties>
+    <property name="side" value="n"/>
+    <property name="type" value="wall"/>
+   </properties>
+   <image width="64" height="64" source="big_tiles/wall_dleft.png"/>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="side" value="n"/>
+    <property name="type" value="wall"/>
+   </properties>
+   <image width="64" height="64" source="big_tiles/wall_down.png"/>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="side" value="n"/>
+    <property name="type" value="wall"/>
+   </properties>
+   <image width="64" height="64" source="big_tiles/wall_dright.png"/>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="side" value="n"/>
+    <property name="type" value="wall"/>
+   </properties>
+   <image width="64" height="64" source="big_tiles/wall_left.png"/>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="side" value="n"/>
+    <property name="type" value="wall"/>
+   </properties>
+   <image width="64" height="64" source="big_tiles/wall_left.png"/>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="side" value="n"/>
+    <property name="type" value="wall"/>
+   </properties>
+   <image width="64" height="64" source="big_tiles/wall_right.png"/>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="side" value="n"/>
+    <property name="type" value="wall"/>
+   </properties>
+   <image width="64" height="64" source="big_tiles/wall_uleft.png"/>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="side" value="n"/>
+    <property name="type" value="wall"/>
+   </properties>
+   <image width="64" height="64" source="big_tiles/wall_up.png"/>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="side" value="n"/>
+    <property name="type" value="wall"/>
+   </properties>
+   <image width="64" height="64" source="big_tiles/wall_uright.png"/>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="side" value="1"/>
+    <property name="type" value="tank"/>
+   </properties>
+   <image width="32" height="32" source="big_tiles/tank1_spawn_small.png"/>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="side" value="2"/>
+    <property name="type" value="tower"/>
+   </properties>
+   <image width="32" height="32" source="big_tiles/tower2_little.png"/>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="side" value="2"/>
+    <property name="type" value="tank"/>
+   </properties>
+   <image width="32" height="32" source="big_tiles/tank2_spawn_small.png"/>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="side" value="2"/>
+    <property name="type" value="meeleemob"/>
+   </properties>
+   <image width="32" height="32" source="big_tiles/mmob2spawn_small.png"/>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="side" value="2"/>
+    <property name="type" value="base"/>
+   </properties>
+   <image width="32" height="32" source="big_tiles/base2_small.png"/>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="side" value="1"/>
+    <property name="type" value="base"/>
+   </properties>
+   <image width="32" height="32" source="big_tiles/base1_small.png"/>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="side" value="n"/>
+    <property name="type" value="flag"/>
+   </properties>
+   <image width="64" height="64" source="big_tiles/flag.png"/>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="side" value="n"/>
+    <property name="type" value="wall"/>
+   </properties>
+   <image width="64" height="64" source="big_tiles/ground2.png"/>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="side" value="1"/>
+    <property name="type" value="simplemob"/>
+   </properties>
+   <image width="32" height="32" source="big_tiles/mob1spawn_little.png"/>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="side" value="1"/>
+    <property name="type" value="meeleemob"/>
+   </properties>
+   <image width="32" height="32" source="big_tiles/mmob1spawn_small.png"/>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="side" value="1"/>
+    <property name="type" value="tower"/>
+   </properties>
+   <image width="32" height="32" source="big_tiles/tower1_little.png"/>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="side" value="n"/>
+    <property name="type" value="wall"/>
+   </properties>
+   <image width="64" height="64" source="big_tiles/comp_obj1/complex_obj1_11.png"/>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="side" value="n"/>
+    <property name="type" value="wall"/>
+   </properties>
+   <image width="64" height="64" source="big_tiles/comp_obj1/complex_obj1_12.png"/>
+  </tile>
+  <tile id="36">
+   <properties>
+    <property name="side" value="n"/>
+    <property name="type" value="wall"/>
+   </properties>
+   <image width="64" height="64" source="big_tiles/comp_obj1/complex_obj1_21.png"/>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="side" value="n"/>
+    <property name="type" value="wall"/>
+   </properties>
+   <image width="64" height="64" source="big_tiles/comp_obj1/complex_obj1_22.png"/>
+  </tile>
+  <tile id="38">
+   <properties>
+    <property name="side" value="n"/>
+    <property name="type" value="wall"/>
+   </properties>
+   <image width="62" height="62" source="big_tiles/wall_center1.png"/>
+  </tile>
+  <tile id="50">
+   <properties>
+    <property name="side" value="n"/>
+    <property name="type" value="wall"/>
+   </properties>
+   <image width="64" height="64" source="big_tiles/comp_obj2/comp_obj2_11.png"/>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="side" value="n"/>
+    <property name="type" value="wall"/>
+   </properties>
+   <image width="64" height="64" source="big_tiles/comp_obj2/comp_obj2_21.png"/>
+  </tile>
+  <tile id="52">
+   <properties>
+    <property name="side" value="n"/>
+    <property name="type" value="wall"/>
+   </properties>
+   <image width="64" height="64" source="big_tiles/comp_obj2/comp_obj2_22.png"/>
+  </tile>
+  <tile id="61">
+   <properties>
+    <property name="side" value="n"/>
+    <property name="type" value="wall"/>
+   </properties>
+   <image width="64" height="64" source="big_tiles/comp_obj3/comp_obj3_11.png"/>
+  </tile>
+  <tile id="62">
+   <properties>
+    <property name="side" value="n"/>
+    <property name="type" value="wall"/>
+   </properties>
+   <image width="64" height="64" source="big_tiles/comp_obj3/comp_obj3_12.png"/>
+  </tile>
+  <tile id="63">
+   <properties>
+    <property name="side" value="n"/>
+    <property name="type" value="wall"/>
+   </properties>
+   <image width="64" height="64" source="big_tiles/comp_obj3/comp_obj3_21.png"/>
+  </tile>
+  <tile id="64">
+   <properties>
+    <property name="side" value="n"/>
+    <property name="type" value="wall"/>
+   </properties>
+   <image width="64" height="64" source="big_tiles/comp_obj3/comp_obj3_22.png"/>
+  </tile>
+  <tile id="65">
+   <properties>
+    <property name="side" value="2"/>
+    <property name="type" value="simplemob"/>
+   </properties>
+   <image width="32" height="32" source="big_tiles/mob2spawn_little.png"/>
+  </tile>
+  <tile id="66">
+   <properties>
+    <property name="side" value="n"/>
+    <property name="type" value="wall"/>
+   </properties>
+   <image width="64" height="64" source="big_tiles/comp_obj4/comp_obj4_11.png"/>
+  </tile>
+  <tile id="67">
+   <properties>
+    <property name="side" value="n"/>
+    <property name="type" value="wall"/>
+   </properties>
+   <image width="64" height="64" source="big_tiles/comp_obj4/comp_obj4_12.png"/>
+  </tile>
+  <tile id="68">
+   <properties>
+    <property name="side" value="n"/>
+    <property name="type" value="wall"/>
+   </properties>
+   <image width="64" height="64" source="big_tiles/comp_obj5/building_11.png"/>
+  </tile>
+  <tile id="69">
+   <properties>
+    <property name="side" value="n"/>
+    <property name="type" value="wall"/>
+   </properties>
+   <image width="64" height="64" source="big_tiles/comp_obj5/building_12.png"/>
+  </tile>
+  <tile id="70">
+   <properties>
+    <property name="side" value="n"/>
+    <property name="type" value="wall"/>
+   </properties>
+   <image width="64" height="64" source="big_tiles/comp_obj5/building_21.png"/>
+  </tile>
+  <tile id="71">
+   <properties>
+    <property name="side" value="n"/>
+    <property name="type" value="wall"/>
+   </properties>
+   <image width="64" height="64" source="big_tiles/comp_obj5/building_22.png"/>
+  </tile>
+  <tile id="72">
+   <properties>
+    <property name="side" value="1"/>
+    <property name="type" value="rangemob"/>
+   </properties>
+   <image width="32" height="32" source="big_tiles/rmob1spawn_small.png"/>
+  </tile>
+  <tile id="73">
+   <properties>
+    <property name="side" value="2"/>
+    <property name="type" value="rangemob"/>
+   </properties>
+   <image width="32" height="32" source="big_tiles/rmob2spawn_small.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="75" name="tileset" tilewidth="64" tileheight="64" tilecount="15" columns="0">
+  <tile id="0">
+   <image width="32" height="32" source="tiles/wall_little.png"/>
+  </tile>
+  <tile id="1">
+   <image width="32" height="32" source="tiles/tank1_spawn_small.png"/>
+  </tile>
+  <tile id="2">
+   <image width="32" height="32" source="tiles/tank2_spawn_small.png"/>
+  </tile>
+  <tile id="3">
+   <image width="32" height="32" source="tiles/mob1spawn_little.png"/>
+  </tile>
+  <tile id="4">
+   <image width="32" height="32" source="tiles/mob2spawn_little.png"/>
+  </tile>
+  <tile id="5">
+   <image width="32" height="32" source="tiles/tower1_little.png"/>
+  </tile>
+  <tile id="6">
+   <image width="32" height="32" source="tiles/tower2_little.png"/>
+  </tile>
+  <tile id="7">
+   <image width="32" height="32" source="tiles/base1_small.png"/>
+  </tile>
+  <tile id="8">
+   <image width="32" height="32" source="tiles/base2_small.png"/>
+  </tile>
+  <tile id="9">
+   <image width="32" height="32" source="tiles/mmob1spawn_small.png"/>
+  </tile>
+  <tile id="10">
+   <image width="32" height="32" source="tiles/mmob2spawn_small.png"/>
+  </tile>
+  <tile id="11">
+   <image width="32" height="32" source="tiles/rmob1spawn_small.png"/>
+  </tile>
+  <tile id="12">
+   <image width="32" height="32" source="tiles/rmob2spawn_small.png"/>
+  </tile>
+  <tile id="13">
+   <image width="64" height="64" source="big_tiles/flag.png"/>
+  </tile>
+  <tile id="14">
+   <image width="64" height="64" source="big_tiles/flag.png"/>
+  </tile>
+ </tileset>
+ <imagelayer name="Image Layer 1">
+  <image source="Resources/Images/mapa.png" width="1920" height="1088"/>
+ </imagelayer>
+ <layer name="Tile Layer 1" width="30" height="17">
+  <data encoding="csv">
+0,0,67,68,67,68,0,0,0,0,0,0,0,0,0,0,51,0,0,0,0,11,12,12,12,8,0,0,0,0,
+67,68,67,68,67,68,0,0,0,0,0,0,0,0,0,0,52,53,11,12,12,7,0,66,66,8,0,0,0,0,
+67,68,67,68,0,0,0,69,70,0,0,0,0,0,0,0,0,11,7,0,22,0,0,0,0,8,0,25,0,0,
+0,11,12,13,0,0,0,71,72,0,0,0,0,0,11,12,12,7,0,0,0,0,0,0,0,0,0,0,0,0,
+0,8,32,10,62,63,0,0,0,0,0,0,11,12,7,0,0,0,0,0,0,0,0,0,0,0,0,6,6,6,
+0,8,32,10,64,65,0,11,12,12,12,12,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,8,32,5,12,12,12,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,
+12,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,12,12,9,23,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,24,24,9,0,0,
+0,0,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,12,12,12,12,12,6,6,6,5,6,6,
+0,0,0,0,0,0,0,0,0,0,0,0,11,12,13,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,
+31,31,0,0,0,0,0,34,0,0,11,12,7,0,9,0,0,0,5,6,6,6,6,13,67,68,67,68,0,0,
+12,12,12,0,0,0,0,11,12,12,7,0,69,70,9,0,0,0,0,0,0,0,0,9,67,68,67,68,0,0,
+0,0,0,0,0,0,0,9,0,0,0,0,71,72,9,0,0,0,0,0,0,0,0,9,0,0,0,0,0,0,
+0,0,26,0,10,0,0,5,6,13,0,0,0,0,9,0,0,0,0,27,0,0,0,9,0,35,36,0,62,63,
+0,0,0,0,10,0,0,21,0,8,35,36,0,0,5,13,0,0,0,0,0,0,0,9,0,37,38,0,64,65,
+0,0,0,0,10,0,0,0,0,8,37,38,0,0,0,5,12,13,0,0,0,0,0,9,0,0,0,0,0,0
+</data>
+ </layer>
+</map>

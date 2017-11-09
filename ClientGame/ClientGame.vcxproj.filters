@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sys">
+      <UniqueIdentifier>{bd025285-8df3-4edd-a9c1-db4f5dacbeea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{9073b2fd-4c49-4dc9-bc97-6754ac3d6e04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config\Level">
+      <UniqueIdentifier>{2d34c279-7f56-490d-ae34-35dbc06158b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config\ActorDef">
+      <UniqueIdentifier>{85e882e1-5291-453a-b0bd-2eb7dc92c8f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Docs">
+      <UniqueIdentifier>{18537e88-4d11-4001-8630-f5ee9de055c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Icons">
+      <UniqueIdentifier>{982aeeef-8fd2-4dfb-bf3d-9b6d761280ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{0aec928a-156f-4c7f-849d-ed0551c4f07c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Headers">
+      <UniqueIdentifier>{dcc67e8f-bc9e-4386-afa9-253073887299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Sources">
+      <UniqueIdentifier>{abe2240a-bdc8-47fa-a40a-bf932ff5daf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Headers\Units">
+      <UniqueIdentifier>{bd564b55-c187-4258-89b0-bf40821a98b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Headers\Screens">
+      <UniqueIdentifier>{34e7ec81-41c3-40d2-b355-6cce333cc77a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Sources\Units">
+      <UniqueIdentifier>{e7955489-dedb-4d96-bb97-5411ecf271f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Sources\Screens">
+      <UniqueIdentifier>{4cceb33a-7729-4d33-b025-7abb5e7f5fc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Headers\Commanders">
+      <UniqueIdentifier>{e9649acb-80ea-452e-b982-b1b83a13861d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Sources\Commanders">
+      <UniqueIdentifier>{5391570f-46af-41e6-b4ff-5a7e3c92ed34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Headers\Weapons">
+      <UniqueIdentifier>{c75faafa-4b10-4db4-9c06-d79e506a8f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Sources\Weapons">
+      <UniqueIdentifier>{73e8f022-f18f-4ffa-9a45-39d28407535b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Headers\Spawners">
+      <UniqueIdentifier>{f62acc77-0b50-4cff-aea8-cabe3003d3be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Sources\Spawners">
+      <UniqueIdentifier>{d9d2f289-fb87-4e6f-ab8d-25265d16bc30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Sources\Physics">
+      <UniqueIdentifier>{f631e731-f5ca-4eb1-a805-c7b5b0c49c9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Headers\Physics">
+      <UniqueIdentifier>{9cbf23de-bde4-48ff-8a3e-1d35721af02d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Headers\Buttons">
+      <UniqueIdentifier>{2def8b6c-99f5-4aa9-b5e4-6ff5fca5954a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Sources\Buttons">
+      <UniqueIdentifier>{498fbd32-71bf-4952-9aaf-cbc4264c85fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Sources\SubGameSystems">
+      <UniqueIdentifier>{18977898-aa81-4fe7-8f93-b26637073308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Headers\SubGameSystems">
+      <UniqueIdentifier>{9e0a8477-93d0-4e48-b242-ead2b6e29f3f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Angel\Scripting\Interfaces\AngelLuaWrapping.cpp">
+      <Filter>sys</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>sys</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Game.cpp">
+      <Filter>Classes\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Classes\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Base.cpp">
+      <Filter>Classes\Sources\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicUnit.cpp">
+      <Filter>Classes\Sources\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Mob.cpp">
+      <Filter>Classes\Sources\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Tank.cpp">
+      <Filter>Classes\Sources\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Tower.cpp">
+      <Filter>Classes\Sources\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Classes\Sources\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScreen.cpp">
+      <Filter>Classes\Sources\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionsScreen.cpp">
+      <Filter>Classes\Sources\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScreen.cpp">
+      <Filter>Classes\Sources\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicCommander.cpp">
+      <Filter>Classes\Sources\Commanders</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCommander.cpp">
+      <Filter>Classes\Sources\Commanders</Filter>
+    </ClCompile>
+    <ClCompile Include="MobCommander.cpp">
+      <Filter>Classes\Sources\Commanders</Filter>
+    </ClCompile>
+    <ClCompile Include="TowerCommander.cpp">
+      <Filter>Classes\Sources\Commanders</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Classes\Sources\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicWeapon.cpp">
+      <Filter>Classes\Sources\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthBar.cpp">
+      <Filter>Classes\Sources\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="TowerSpawnPoint.cpp">
+      <Filter>Classes\Sources\Spawners</Filter>
+    </ClCompile>
+    <ClCompile Include="TankSpawnManager.cpp">
+      <Filter>Classes\Sources\Spawners</Filter>
+    </ClCompile>
+    <ClCompile Include="MobSpawnManager.cpp">
+      <Filter>Classes\Sources\Spawners</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicSpawnManager.cpp">
+      <Filter>Classes\Sources\Spawners</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseSpawnPoint.cpp">
+      <Filter>Classes\Sources\Spawners</Filter>
+    </ClCompile>
+    <ClCompile Include="RangedMob.cpp">
+      <Filter>Classes\Sources\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="MeeleeMobSpawnPoint.cpp">
+      <Filter>Classes\Sources\Spawners</Filter>
+    </ClCompile>
+    <ClCompile Include="RangeMobSpawnPoint.cpp">
+      <Filter>Classes\Sources\Spawners</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserWeapon.cpp">
+      <Filter>Classes\Sources\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="RayCastCallbackClosest.cpp">
+      <Filter>Classes\Sources\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="RayCastCallbackAll.cpp">
+      <Filter>Classes\Sources\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="MeleeMob.cpp">
+      <Filter>Classes\Sources\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Classes\Sources\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="BurstWeapon.cpp">
+      <Filter>Classes\Sources\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="StatManager.cpp">
+      <Filter>Classes\Sources\SubGameSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundSystem.cpp">
+      <Filter>Classes\Sources\SubGameSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="PathFinding.cpp">
+      <Filter>Classes\Sources\SubGameSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="GamepadStoreInput.cpp">
+      <Filter>Classes\Sources\SubGameSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="TmxMap.cpp">
+      <Filter>Classes\Sources\SubGameSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponHolder.cpp">
+      <Filter>Classes\Sources\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicButton.cpp">
+      <Filter>Classes\Sources\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomButtonLimitted.cpp">
+      <Filter>Classes\Sources\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomButtonUnlimitted.cpp">
+      <Filter>Classes\Sources\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuButton.cpp">
+      <Filter>Classes\Sources\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="TakeFlag.cpp">
+      <Filter>Classes\Sources\SubGameSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="StoreButton.cpp">
+      <Filter>Classes\Sources\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="SessionInfo.cpp">
+      <Filter>Classes\Sources\SubGameSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObjectFactory.cpp">
+      <Filter>Classes\Sources\SubGameSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="TunedInfo.cpp">
+      <Filter>Classes\Sources\SubGameSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Store.cpp">
+      <Filter>Classes\Sources\SubGameSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuButtonManager.cpp">
+      <Filter>Classes\Sources\SubGameSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionScreenButtonManager.cpp">
+      <Filter>Classes\Sources\SubGameSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomCheckBox.cpp">
+      <Filter>Classes\Sources\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicPriority.cpp">
+      <Filter>Classes\Sources\Commanders</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="MapChoiceButtonManager.cpp">
+      <Filter>Classes\Sources\SubGameSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplosionSystem.cpp">
+      <Filter>Classes\Sources\SubGameSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMenuButtonManager.cpp">
+      <Filter>Classes\Sources\SubGameSystems</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="platforms\win\ClientGame.rc">
+      <Filter>sys</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="platforms\win\resource.h">
+      <Filter>sys</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>sys</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Classes\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Classes\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>Classes\Headers\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicUnit.h">
+      <Filter>Classes\Headers\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Mob.h">
+      <Filter>Classes\Headers\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.h">
+      <Filter>Classes\Headers\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Tower.h">
+      <Filter>Classes\Headers\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Classes\Headers\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreen.h">
+      <Filter>Classes\Headers\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScreen.h">
+      <Filter>Classes\Headers\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionsScreen.h">
+      <Filter>Classes\Headers\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScreen.h">
+      <Filter>Classes\Headers\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicCommander.h">
+      <Filter>Classes\Headers\Commanders</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCommander.h">
+      <Filter>Classes\Headers\Commanders</Filter>
+    </ClInclude>
+    <ClInclude Include="MobCommander.h">
+      <Filter>Classes\Headers\Commanders</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerCommander.h">
+      <Filter>Classes\Headers\Commanders</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicWeapon.h">
+      <Filter>Classes\Headers\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Classes\Headers\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthBar.h">
+      <Filter>Classes\Headers\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerSpawnPoint.h">
+      <Filter>Classes\Headers\Spawners</Filter>
+    </ClInclude>
+    <ClInclude Include="TankSpawnManager.h">
+      <Filter>Classes\Headers\Spawners</Filter>
+    </ClInclude>
+    <ClInclude Include="MobSpawnManager.h">
+      <Filter>Classes\Headers\Spawners</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicSpawnManager.h">
+      <Filter>Classes\Headers\Spawners</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseSpawnPoint.h">
+      <Filter>Classes\Headers\Spawners</Filter>
+    </ClInclude>
+    <ClInclude Include="RangedMob.h">
+      <Filter>Classes\Headers\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="MeeleeMobSpawnPoint.h">
+      <Filter>Classes\Headers\Spawners</Filter>
+    </ClInclude>
+    <ClInclude Include="RangeMobSpawnPoint.h">
+      <Filter>Classes\Headers\Spawners</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserWeapon.h">
+      <Filter>Classes\Headers\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="RayCastCallbackClosest.h">
+      <Filter>Classes\Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="RayCastCallbackAll.h">
+      <Filter>Classes\Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="MeleeMob.h">
+      <Filter>Classes\Headers\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Classes\Headers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="BurstWeapon.h">
+      <Filter>Classes\Headers\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="StatManager.h">
+      <Filter>Classes\Headers\SubGameSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSystem.h">
+      <Filter>Classes\Headers\SubGameSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="GamepadStoreInput.h">
+      <Filter>Classes\Headers\SubGameSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="PathFinding.h">
+      <Filter>Classes\Headers\SubGameSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="TmxMap.h">
+      <Filter>Classes\Headers\SubGameSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaySides.h">
+      <Filter>Classes\Headers\SubGameSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponHolder.h">
+      <Filter>Classes\Headers\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicButton.h">
+      <Filter>Classes\Headers\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomButtonUnlimitted.h">
+      <Filter>Classes\Headers\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomButtonLimitted.h">
+      <Filter>Classes\Headers\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuButton.h">
+      <Filter>Classes\Headers\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="TakeFlag.h">
+      <Filter>Classes\Headers\SubGameSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="StoreButton.h">
+      <Filter>Classes\Headers\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="SessionInfo.h">
+      <Filter>Classes\Headers\SubGameSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObjectFactory.h">
+      <Filter>Classes\Headers\SubGameSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="TunedInfo.h">
+      <Filter>Classes\Headers\SubGameSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Store.h">
+      <Filter>Classes\Headers\SubGameSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuButtonManager.h">
+      <Filter>Classes\Headers\SubGameSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionScreenButtonManager.h">
+      <Filter>Classes\Headers\SubGameSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomCheckBox.h">
+      <Filter>Classes\Headers\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicPriority.h">
+      <Filter>Classes\Headers\Commanders</Filter>
+    </ClInclude>
+    <ClInclude Include="Priority.h">
+      <Filter>Classes\Headers\Commanders</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenuButtonManager.h">
+      <Filter>Classes\Headers\SubGameSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="MapChoiceButtonManager.h">
+      <Filter>Classes\Headers\SubGameSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplosionSystem.h">
+      <Filter>Classes\Headers\SubGameSystems</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Config\defaults.lua">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="Config\input_bindings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="Config\tuning.lua">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="Documentation\Attributions.txt">
+      <Filter>Docs</Filter>
+    </None>
+    <None Include="Documentation\GameInfo.txt">
+      <Filter>Docs</Filter>
+    </None>
+    <None Include="platforms\win\angel.ico">
+      <Filter>Icons</Filter>
+    </None>
+    <None Include="platforms\win\angel_small.ico">
+      <Filter>Icons</Filter>
+    </None>
+    <None Include="build.lua" />
+    <None Include="Resources\Scripts\client_start.lua" />
+    <None Include="script_interface.i" />
+  </ItemGroup>
+</Project>
